@@ -18,12 +18,6 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-/**
- * AES : 암/복호화 과정에서 동일한 키를 사용하는 '대칭 키 알고리즘'
- * 블록 크기가 128비트인 알고리즘
- * <p>
- * 1. 암호화 하고 싶은 문자열을 바이트 단위로 변경
- */
 public class MainActivity extends AppCompatActivity {
     /**
      * 입력창
